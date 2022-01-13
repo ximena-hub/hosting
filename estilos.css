@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #999;
+    text-align: center;
+}
+h2{
+    font: bold 20px sans-serif;
+    text-align: center;
+}
+body{
+    text-align: center;
+    
+    
+    background-size: cover;
+    
+}
+@media screen and (max-width:800px){
+    
+}    
+.Titulo h1{
+    font: 40px bold verdana;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(110, 124, 96);
+}
+
+.Titulo h2{
+    font: 20px bold verdana;
+    margin-left: 25px;
+    color: rgb(153, 177, 129);
+}
+head, section, footer, article, aside, nav, hgroup{
+    display: block;
+}
+.Agrupar{
+    border: 1px solid blue;
+    width: 960px;
+    margin: 15px auto;
+    background: brown(255, 255, 255);
+}
+
+.Cabecera{
+    background-image: url(https://image.shutterstock.com/image-illustration/judge-gavel-hammer-on-silver-260nw-63569143.jpg);
+   
+    -webkit-background-size: cover;
+    -moz-background-size:cover ;
+    -moz-background-size:cover ;
+
+
+    background-size: cover;
+    
+    border: 1px solid burlywood;
+    padding: 20px; 
+    height: 50px;
+    right: 0%;
+    color: white;
+    
+}
+
+.Cabecera img{
+    width: 250px;
+    height: 40px;
+    float:  left;
+    margin-top: -11px;
+}
+
+.Cabecera h1{
+    text-align: left;
+
+}
+/*menu deslegable */
+
+
+nav{
+
+    background: black;
+    font: bold 15px verdana;
+    height: 50px;
+    text-align: left;
+    list-style: none;
+
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+
+.Menu li a{
+background-color: black;
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}
+
+.Menu li a:hover{
+    background: #999;
+}
+.Menu > li {
+float: left;
+}
+
+
+.Menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.Menu li:hover > ul{
+display: block;
+}
+
+.Menu li ul li{
+position: relative;
+}
+
+
+
+ .Menu li ul li ul{
+     right: -230px;
+     top: 0px;
+ }    
+
+
+
+/*objeto buscar*/
+.Buscar{
+    text-align: right;
+    padding: 10px;
+}
+
+
+
+.Section{
+    margin: 20px;
+    width: 95%;
+
+    float: center;
+    color-adjust: burlywood(238, 238, 238);
+}
+
+
+
+
+article{
+    background: burlywood;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+time{
+    color: #696969;;
+}
+img{
+    width: 350px;
+    left: 150px;
+    display: block;
+    margin: 20px auto;
+
+}
+.ColumnaLateral{
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+}
+.ColumnaLateral blockquote{
+    border: 1px solid black;
+     padding: 40px;
+     background: #f9f1af;
+     margin-bottom: 20px;   
+}
+
+.Pie{
+    clear: both;
+    padding: 20px;
+    background: #3d3d3d;
+    color: white;
+    text-align: center;
+}
